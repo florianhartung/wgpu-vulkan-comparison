@@ -1,0 +1,11 @@
+[package]
+name = "wgpu"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+common = { path = "../common" }
+wgpu = "22"
+pollster = "0.3"
+bytemuck = { version = "1", features = ["derive"] }
+cgmath = "0.18" # for calculating the mvp matrix

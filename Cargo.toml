@@ -1,0 +1,3 @@
+[workspace]
+members = ["vulkan", "wgpu", "common"]
+resolver = "2"
